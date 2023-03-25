@@ -1,0 +1,117 @@
+* {
+	margin: 0px; 
+	padding: 0px; 
+	box-sizing: border-box;
+}
+input {
+	outline: none;
+	border: none;
+}
+button {
+	outline: none !important;
+	border: none;
+	background: transparent;
+}
+.login1 {
+  width: 100%;  
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background: #f2f2f2;
+}
+.login2 {
+  width: 100%;
+  background: #fff;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  flex-direction: row-reverse;
+}
+.login3 {
+  width: calc(100% - 560px);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.login3::before {
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.login100-form {
+  width: 560px;
+  min-height: 100vh;
+  display: block;
+  background-color: #f7f7f7;
+  padding: 173px 55px 55px 55px;
+}
+.login100-form-title {
+  width: 100%;
+  display: block;
+  font-family: Poppins-Regular;
+  font-size: 30px;
+  color: #333333;
+  line-height: 1.2;
+  text-align: center;
+}
+.input1 {
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  width: 100%;
+  height: 80px;
+  position: relative;
+  border: 1px solid #e6e6e6;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.label-input100 {
+  font-family: Montserrat-Regular;
+  font-size: 18px;
+  color: #999999;
+  line-height: 1.2;
+
+  display: block;
+  position: absolute;
+  pointer-events: none;
+  width: 100%;
+  padding-left: 24px;
+  left: 0;
+  top: 30px;
+}
+.has-val + .focus-input100 + .label-input100 {
+  top: 14px;
+  font-size: 13px;
+}
+.login100-form-btn {
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  border-radius: 10px;
+  background: #6675df;
+  color: #fff;
+}
+.login100-form-social-item {
+	width: 36px;
+	height: 36px;
+	font-size: 18px;
+	color: #fff;
+	border-radius: 50%;
+}
+	.login100-form-social-item:hover {
+		background: #333333;
+		color: #fff;
+	}
+.flex1 {
+	display: flex;
+	justify-content: space-between;
+	-ms-align-items: center;
+	align-items: center;
+}
